@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="fonStyle">
+        <div class="SignUp">
+            <h2>Sign Up</h2>
+        </div>
+        <form action="./newIndex.html" class="forms">
+            <input type="text" placeholder="Enter your name" id="formsInput" pattern="[A-z]+" title="write only Text" oninput="myFunction()" >
+            <input type="text" placeholder="Enter your surname" id="formsInput" pattern="[A-z]+" title="write only Text" oninput="myFunction()">
+            <input type="email" placeholder="E-mail" id="formsInput" class="mail"> 
+            <input type="password" placeholder="Password" id="formsInput" class="password"  minlength="8">
+            <input type="password" placeholder="confirm-password" id="formsInput" class="confirmPassword">
+            <span id='message'></span>
+            <input type="submit" value="Sign Up" id="inpSubmit">
+            <div class='myDiv'></div>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html> 

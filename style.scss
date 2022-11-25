@@ -1,0 +1,41 @@
+body{
+    background:#ebebf7 ;
+}
+.fonStyle{
+    margin: 100px auto;
+    width: 800px;
+    background: white;
+  padding: 10px;
+}
+.forms{
+   width: 300px;
+   display: flex;
+   margin: 10px auto;
+   flex-direction: column;
+  justify-content: center;
+   gap: 20px;
+  input{
+    padding: 10px 5px;
+    background-color: #F6F6FC;
+   border: 1px solid rgb(137, 196, 214);
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(185, 215, 234);   
+    }
+  }
+  #inpSubmit{
+    background: #413FC4;
+    color: white;
+    &:hover{
+        background-color: #0c0a86;
+    }
+  }
+}
+.SignUp h2{
+    display: flex;
+    justify-content: center;
+}
+.myStyle{
+border: 1px dotted;
+  border-color: red;
+}
